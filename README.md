@@ -1,5 +1,6 @@
 # Angular_Grocery_List
 Check its's usability https://kseniiaryuma.github.io/Angular_Grocery_List/#/addItem
+
 This progect is the starting point with AngulularJS framework
 
 While creating Grocery List Application I have learned:
