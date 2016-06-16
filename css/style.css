@@ -1,0 +1,58 @@
+/*.strike {
+    text-decoration: line-through;
+}*/
+
+.strike{
+    position: relative;
+}
+.strike::after {
+    border-bottom: 3px solid black;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 40%;
+}
+
+
+body{
+    background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+    background: linear-gradient(to right, #c4bf44, #25b7c4);
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.navbar {
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+}
+
+.navbar li { color: #000 }
+
+.navbar-inverse .navbar-brand{
+    color: #0f0f0f;
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.jumbotron {
+    background-image: url(../img/turtle.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+li {
+    background: seashell;
+}
